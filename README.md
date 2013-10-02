@@ -13,3 +13,5 @@ My implementation is such that one goroutine is spawned for one prime, so the nu
 	go run soe.go -max=100000
 
 The flag `max` specifies the largest number to be tested.
+
+A file named `output.txt` will be generated.  It will contain all primes found.  The number of goroutines spawned in total will be printed to the console.
